@@ -6,7 +6,7 @@ Public research site for the [Covenant Framework](https://covenant.foundation) �
 
 **Whitepaper** — "The Covenant Framework: A Governance Layer for Autonomous AI Agents." 10 pages covering the problem, architecture, a concrete walkthrough, honest limitations, and the research program ahead. [Read online](https://asalsali.github.io/covenant-research/) or [download PDF](https://asalsali.github.io/covenant-research/Covenant_Framework_Whitepaper.pdf).
 
-**Benchmarking Kit** — Everything needed to replicate the Terminal-Bench 2.0 benchmark results (67.4% governed vs 42% ad-hoc). Includes 7 Harbor agent configurations for Claude and GPT, the 6 governance rules, cost estimates, and the full experimental roadmap. See [`benchmarks/`](benchmarks/).
+**Benchmarking Kit** — Everything needed to replicate our preliminary Terminal-Bench 2.0 results (67.4% governed vs 58.0% vanilla). Includes 7 Harbor agent configurations for Claude and GPT, the 6 governance rules, cost estimates, and the experimental roadmap. See [`benchmarks/`](benchmarks/).
 
 ## Quick links
 

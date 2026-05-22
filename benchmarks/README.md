@@ -27,8 +27,8 @@ tasks. See `experimental-roadmap.md` for planned experiments to close this gap.
 For the full write-up of the original benchmark run, see
 [`BENCHMARK-FINDINGS.md`](BENCHMARK-FINDINGS.md).
 
-For the research paper motivating this work, see
-[`Governance_Under_Load_Draft.pdf`](Governance_Under_Load_Draft.pdf).
+For the whitepaper motivating this work, see the
+[Covenant Framework Whitepaper](../whitepaper.html).
 
 ---
 
@@ -258,7 +258,7 @@ benchmarks/
   README.md                          <- This file
   governance-rules.txt               <- The 6 rules, standalone
   BENCHMARK-FINDINGS.md              <- Detailed results from the original run
-  Governance_Under_Load_Draft.pdf    <- Research paper draft
+  ../Covenant_Framework_Whitepaper.pdf <- Whitepaper
   experimental-roadmap.md            <- Planned experiments with methodology
   agents/
     covenant_prophet.py              <- Governed Claude agent (6 rules, v3.1)
