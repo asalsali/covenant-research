@@ -57,7 +57,7 @@
       <div class="lc-body">
         <div class="lc-tag">Research paper &middot; Draft</div>
         <h3>Governance Under Load</h3>
-        <p>Why principal-agent systems require structural governance, not relational oversight. Terminal-Bench 2.0 results: 67.4% governed vs 42% ad-hoc on the same model. Statistical methodology and experimental roadmap.</p>
+        <p>Why principal-agent systems require structural governance, not relational oversight. Preliminary Terminal-Bench results, known limitations, statistical methodology, and the experimental roadmap for resolving them.</p>
         <div class="lc-links">
           <span>Download PDF &rarr;</span>
         </div>
@@ -83,27 +83,28 @@
 <section style="background: var(--ink); color: var(--paper); padding: 4rem 0;"><div class="shell">
   <div class="grid-2" style="align-items: center;">
     <div>
-      <div class="h-sub" style="color: var(--gold); margin-bottom: 1rem;">Headline result</div>
+      <div class="h-sub" style="color: var(--gold); margin-bottom: 1rem;">Preliminary result</div>
       <div class="bignum">67.4<span class="pct">%</span></div>
-      <p style="color: #cfc3a8; margin-top: 1rem; max-width: 26rem;">on Terminal-Bench 2.0. 89 tasks, single attempt, no retry. The same model with ad-hoc rules scored 42%. The difference: 6 structured governance rules.</p>
+      <p style="color: #cfc3a8; margin-top: 1rem; max-width: 26rem;">on Terminal-Bench 2.0. 89 tasks, single attempt, no retry. Early results suggest governance rules improve coding agent performance vs the vanilla baseline at 58.0%.</p>
+      <p style="color: #6f6457; font-size: 0.82rem; margin-top: 0.6rem; max-width: 26rem;">Caveat: the governed run used Opus 4.7; vanilla baseline is Opus 4.6. Model confound not yet resolved. See the <a href="Governance_Under_Load_Draft.pdf" style="color: var(--gold);">research paper</a> for full methodology.</p>
     </div>
     <div>
       <div style="display: flex; flex-direction: column; gap: 1.2rem;">
         <div style="display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 0.8rem; border-bottom: 1px solid #3a322a;">
-          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Governed (6 rules)</span>
+          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Governed (6 rules, Opus 4.7)</span>
           <span style="font-family: var(--display); font-style: italic; font-size: 1.8rem; color: var(--gold);">67.4%</span>
         </div>
         <div style="display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 0.8rem; border-bottom: 1px solid #3a322a;">
-          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Vanilla Claude Code</span>
+          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Vanilla Claude Code (Opus 4.6)</span>
           <span style="font-family: var(--display); font-style: italic; font-size: 1.8rem; color: var(--paper);">58.0%</span>
         </div>
         <div style="display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 0.8rem; border-bottom: 1px solid #3a322a;">
-          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Ad-hoc rules</span>
+          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Ad-hoc rules (Opus 4.7, 10 tasks)</span>
           <span style="font-family: var(--display); font-style: italic; font-size: 1.8rem; color: var(--paper);">42.0%</span>
         </div>
         <div style="display: flex; justify-content: space-between; align-items: baseline;">
-          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Governance lift</span>
-          <span style="font-family: var(--display); font-style: italic; font-size: 1.8rem; color: var(--gold);">+25 pts</span>
+          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Defensible lift (vs vanilla)</span>
+          <span style="font-family: var(--display); font-style: italic; font-size: 1.8rem; color: var(--gold);">+9.4 pts*</span>
         </div>
       </div>
     </div>
