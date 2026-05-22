@@ -2,188 +2,197 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Whitepaper - Covenant Foundation</title>
-<meta name="description" content="The Covenant Framework: A Governance Layer for Autonomous AI Agents. Read the non-technical whitepaper.">
-<meta property="og:title" content="The Covenant Framework — Whitepaper">
-<meta property="og:description" content="A governance layer that defines, enforces, and audits agent behavior at execution time.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://covenant.foundation/whitepaper.html">
+<title>Covenant Research</title>
+<meta name="description" content="Open research from the Covenant Foundation: whitepaper, benchmarks, and the Governance Under Load paper.">
+<meta property="og:title" content="Covenant Research">
+<meta property="og:description" content="Whitepaper, benchmarking kit, and research paper for the Covenant Framework — a governance layer for autonomous AI agents.">
+<meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="whitepaper.css">
 </head>
-<body data-screen-label="Whitepaper">
+<body data-screen-label="Landing">
 <nav class="nav"><div class="nav-inner">
   <a href="https://covenant.foundation" class="nav-brand"><img class="mark" src="assets/logo.png" alt="Covenant" aria-hidden="true"><span><span class="word">Covenant</span><small>Foundation &middot; est. 2026</small></span></a>
   <div class="nav-links">
-    <a data-num="I" href="https://covenant.foundation/foundation.html">Foundation</a>
-    <a data-num="II" href="https://covenant.foundation/framework.html">Framework</a>
-    <a data-num="III" href="https://covenant.foundation/benchmarks.html">Benchmarks</a>
-    <a data-num="IV" href="https://covenant.foundation/research.html">Research</a>
-    <a data-num="V" href="https://covenant.foundation/network.html">Network</a>
+    <a data-num="I" href="index.html">Home</a>
+    <a data-num="II" href="research.html">Research</a>
+    <a data-num="III" href="https://covenant.foundation">Main site</a>
   </div>
   <button class="nav-toggle" aria-label="Menu" aria-expanded="false">Menu</button>
   <a class="nav-cta" href="https://covenant.foundation/network.html#access">Request access</a>
 </div></nav>
 
 <!-- HERO -->
-<section style="padding: 5rem 0 4rem; border-bottom: 1px solid var(--ink);"><div class="shell">
-  <div class="flex-between" style="font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); border-top: 1px solid var(--ink); padding-top: 0.8rem; margin-bottom: 4rem;">
-    <span>Whitepaper</span><span>May 2026 &middot; 10 pages</span>
-  </div>
-  <div class="h-sub mb-2 rise">A Governance Layer for Autonomous AI Agents</div>
-  <h1 class="display-1 rise rise-2" style="color: var(--ink); margin-bottom: 2rem;">The <em style="color: var(--gold);">Covenant</em><br>Framework</h1>
-  <p class="lede measure-wide rise rise-3">AI agents are deployed in production. The systems governing them have not kept up. This paper describes an infrastructure layer that defines, enforces, and audits what agents are allowed to do&thinsp;&mdash;&thinsp;without trusting the agent to cooperate.</p>
-  <div class="flex gap-1 mt-2 rise rise-4" style="flex-wrap: wrap;">
-    <a class="btn btn-primary" href="Covenant_Framework_Whitepaper.pdf">Download PDF <span class="arrow">&rarr;</span></a>
-    <a class="btn" href="https://covenant.foundation/research.html">All research</a>
+<section style="padding: 6rem 0 5rem; border-bottom: 1px solid var(--ink);"><div class="shell center">
+  <img class="mark mark-draw" src="assets/logo.png" alt="" style="width: 80px; margin-bottom: 2rem;" aria-hidden="true">
+  <div class="h-sub mb-2 rise">Open research from the Covenant Foundation</div>
+  <h1 class="display-1 rise rise-2" style="color: var(--ink); margin-bottom: 2rem;">Covenant<br><em style="color: var(--gold);">Research</em></h1>
+  <p class="lede rise rise-3" style="max-width: 40rem; margin: 0 auto;">AI agents are in production. The infrastructure to govern them is not. We are building it in the open and publishing everything we learn.</p>
+</div></section>
+
+<!-- THREE ITEMS -->
+<section><div class="shell">
+  <div class="section-head"><div class="num">What&rsquo;s here</div><h2>Three things,<br>freely available.</h2></div>
+
+  <div class="landing-cards">
+    <!-- Whitepaper -->
+    <a class="landing-card" href="whitepaper.html">
+      <div class="lc-num">01</div>
+      <div class="lc-body">
+        <div class="lc-tag">Whitepaper &middot; 10 pages</div>
+        <h3>The Covenant Framework</h3>
+        <p>A governance layer for autonomous AI agents. The problem, the architecture, a concrete walkthrough, honest limitations, and why now. Written for operators, investors, and policymakers.</p>
+        <div class="lc-links">
+          <span>Read online &rarr;</span>
+          <span class="lc-alt">or <u>download PDF</u></span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Research paper -->
+    <a class="landing-card" href="Governance_Under_Load_Draft.pdf">
+      <div class="lc-num">02</div>
+      <div class="lc-body">
+        <div class="lc-tag">Research paper &middot; Draft</div>
+        <h3>Governance Under Load</h3>
+        <p>Why principal-agent systems require structural governance, not relational oversight. Terminal-Bench 2.0 results: 67.4% governed vs 42% ad-hoc on the same model. Statistical methodology and experimental roadmap.</p>
+        <div class="lc-links">
+          <span>Download PDF &rarr;</span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Benchmarking kit -->
+    <a class="landing-card" href="research.html#benchmarks">
+      <div class="lc-num">03</div>
+      <div class="lc-body">
+        <div class="lc-tag">Open source &middot; 7 agent configs</div>
+        <h3>Benchmarking Kit</h3>
+        <p>Everything needed to replicate our Terminal-Bench results or test governance rules on new benchmarks. Harbor agent adapters for Claude and GPT, the 6 rules, cost estimates, and the full experimental roadmap.</p>
+        <div class="lc-links">
+          <span>View the kit &rarr;</span>
+        </div>
+      </div>
+    </a>
   </div>
 </div></section>
 
-<!-- 01 THE PROBLEM -->
-<section><div class="shell">
-  <div class="section-head"><div class="num">01 &middot; The Problem</div><h2>Agents act.<br>Nothing governs them.</h2></div>
-  <div class="grid-2" style="gap: 3rem;">
+<!-- KEY RESULT -->
+<section style="background: var(--ink); color: var(--paper); padding: 4rem 0;"><div class="shell">
+  <div class="grid-2" style="align-items: center;">
     <div>
-      <p class="dropcap">In the past two years, AI agents have moved from research demos into production. They write code, send email, move money, file tickets, and increasingly take action on behalf of people and companies. The agents have become more capable. The systems around them have not.</p>
-      <p>Today, when something goes wrong, the answer is almost always the same: retrain the model, rewrite the prompt, add a human reviewer. These are <strong>relational interventions</strong>&thinsp;&mdash;&thinsp;they depend on trust between developer and model, or between user and agent.</p>
+      <div class="h-sub" style="color: var(--gold); margin-bottom: 1rem;">Headline result</div>
+      <div class="bignum">67.4<span class="pct">%</span></div>
+      <p style="color: #cfc3a8; margin-top: 1rem; max-width: 26rem;">on Terminal-Bench 2.0. 89 tasks, single attempt, no retry. The same model with ad-hoc rules scored 42%. The difference: 6 structured governance rules.</p>
     </div>
     <div>
-      <div class="wp-callout">
-        <div class="wpc-label">The core premise</div>
-        <p class="wpc-text">AI agent safety is, at its core, a <strong>governance problem</strong> rather than an alignment problem. Alignment is necessary. It is not sufficient.</p>
-        <p class="wpc-text" style="margin-bottom: 0;">What is missing is the layer between the agent&rsquo;s decision to act and the system&rsquo;s commitment to that action.</p>
+      <div style="display: flex; flex-direction: column; gap: 1.2rem;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 0.8rem; border-bottom: 1px solid #3a322a;">
+          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Governed (6 rules)</span>
+          <span style="font-family: var(--display); font-style: italic; font-size: 1.8rem; color: var(--gold);">67.4%</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 0.8rem; border-bottom: 1px solid #3a322a;">
+          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Vanilla Claude Code</span>
+          <span style="font-family: var(--display); font-style: italic; font-size: 1.8rem; color: var(--paper);">58.0%</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline; padding-bottom: 0.8rem; border-bottom: 1px solid #3a322a;">
+          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Ad-hoc rules</span>
+          <span style="font-family: var(--display); font-style: italic; font-size: 1.8rem; color: var(--paper);">42.0%</span>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: baseline;">
+          <span style="font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; color: #9a8e7c;">Governance lift</span>
+          <span style="font-family: var(--display); font-style: italic; font-size: 1.8rem; color: var(--gold);">+25 pts</span>
+        </div>
       </div>
     </div>
-  </div>
-</div></section>
-
-<!-- 02 WHY EXISTING APPROACHES FALL SHORT -->
-<section style="background: var(--paper-soft); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);"><div class="shell">
-  <div class="section-head"><div class="num">02 &middot; The Gap</div><h2>Why existing approaches<br>fall short.</h2></div>
-  <div class="wp-approaches">
-    <div class="wp-approach">
-      <div class="wpa-num">01</div>
-      <div>
-        <h3>Model-level alignment</h3>
-        <p>RLHF and post-training safety make outputs <em>more likely</em> to be acceptable. But they operate inside the model and offer no record of why a specific decision was made.</p>
-        <div class="wpa-verdict">Necessary, but not the right layer.</div>
-      </div>
-    </div>
-    <div class="wp-approach">
-      <div class="wpa-num">02</div>
-      <div>
-        <h3>Prompt-level guardrails</h3>
-        <p>Input and output filters work for the app that owns the prompt. They fail when agents act across systems the prompt author does not control.</p>
-        <div class="wpa-verdict">Single-application, not system-level.</div>
-      </div>
-    </div>
-    <div class="wp-approach">
-      <div class="wpa-num">03</div>
-      <div>
-        <h3>Human-in-the-loop review</h3>
-        <p>Works until volume increases, until the human starts approving by reflex, or until the agent acts in ways the human cannot evaluate.</p>
-        <div class="wpa-verdict">A control, not a system.</div>
-      </div>
-    </div>
-  </div>
-  <p class="dim mt-3" style="font-size: 0.92rem; max-width: 44rem;">The common failure: all three trust the agent, the developer, or the reviewer to do the right thing. This is <strong>relational oversight</strong>. It scales linearly with attention and breaks under load.</p>
-</div></section>
-
-<!-- 03 WHAT COVENANT DOES -->
-<section><div class="shell">
-  <div class="section-head"><div class="num">03 &middot; The Solution</div><h2>What Covenant does.</h2></div>
-  <p class="lede measure-wide mb-3">Covenant sits between an agent and the systems it acts on. Every action passes through it. The framework does five things, in order.</p>
-  <div class="wp-five">
-    <div class="wp-func"><div class="wpf-num">1</div><div class="wpf-name">Identifies</div><p>Every actor has a verifiable identity. Agents cannot impersonate other agents. Capabilities are bound to identities, not sessions or tokens.</p></div>
-    <div class="wp-func"><div class="wpf-num">2</div><div class="wpf-name">Authorizes</div><p>Each identity has a defined set of capabilities. An agent that has not been granted the ability to send email <em>cannot send email</em>. Deny by default.</p></div>
-    <div class="wp-func"><div class="wpf-num">3</div><div class="wpf-name">Enforces</div><p>Policies are written in a DSL with temporal semantics. They express what is forbidden across <em>sequences</em> of actions, not just single calls. Compiled to deterministic monitors.</p></div>
-    <div class="wp-func"><div class="wpf-num">4</div><div class="wpf-name">Sanctions</div><p>Violations get graduated responses. Warning, then throttle, then suspend. Each tier narrows what the agent can do per unit time, bounding damage.</p></div>
-    <div class="wp-func"><div class="wpf-num">5</div><div class="wpf-name">Records</div><p>Every decision is logged in W3C provenance format. A graph of causes and effects that can be queried, audited, and presented as evidence.</p></div>
-  </div>
-</div></section>
-
-<!-- 04 ARCHITECTURE -->
-<section style="background: var(--ink); color: var(--paper); border-top: 1px solid var(--ink);"><div class="shell">
-  <div style="display:grid; grid-template-columns: 8rem 1fr; gap: 2rem; margin-bottom: 3rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--gold);">
-    <div style="font-family: var(--mono); font-size: 0.74rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold);">04 &middot; Architecture</div>
-    <h2 style="color: var(--paper); font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1;">How it works.</h2>
-  </div>
-  <div class="wp-arch-flow">
-    <div class="waf-step"><div class="waf-icon">Agent</div><div class="waf-desc">Attempts an action</div></div>
-    <div class="waf-arrow">&rarr;</div>
-    <div class="waf-step"><div class="waf-icon waf-gold">Gateway</div><div class="waf-desc">Identity, capability, quota</div></div>
-    <div class="waf-arrow">&rarr;</div>
-    <div class="waf-step"><div class="waf-icon waf-gold">Policy Monitor</div><div class="waf-desc">Allow, block, transform, escalate</div></div>
-    <div class="waf-arrow">&rarr;</div>
-    <div class="waf-step"><div class="waf-icon">Resources</div><div class="waf-desc">APIs, databases, files</div></div>
-  </div>
-  <div class="wp-arch-details">
-    <div><h4 class="wp-detail-h">Gateway + Sidecar</h4><p style="color: #cfc3a8;">Intercepts every action at the boundary between agents and resources. No agent cooperation required.</p></div>
-    <div><h4 class="wp-detail-h">Policy as Code</h4><p style="color: #cfc3a8;">Text-based policies compiled into deterministic monitors. Runtime cost is a state transition, not an LLM call.</p></div>
-    <div><h4 class="wp-detail-h">Provenance Log</h4><p style="color: #cfc3a8;">Every event signed and chained. Auditors reconstruct the causal chain behind any decision. Tamper-evident.</p></div>
-  </div>
-</div></section>
-
-<!-- 05 WALKTHROUGH -->
-<section><div class="shell">
-  <div class="section-head"><div class="num">05 &middot; In Practice</div><h2>A walkthrough.</h2></div>
-  <p class="measure-wide mb-3">A customer service agent attempts a third refund to the same customer within 24 hours. The agent&rsquo;s prompt does not forbid this. From the agent&rsquo;s perspective, it is being helpful.</p>
-  <div class="wp-walkthrough">
-    <div class="wpw-step"><div class="wpw-num">1</div><div><h4>Gateway clears identity</h4><p>Agent is valid. Refunds are within its capabilities. Quota not exceeded. So far, the action proceeds.</p></div></div>
-    <div class="wpw-step"><div class="wpw-num">2</div><div><h4>Policy catches the pattern</h4><p>A rule fires: <em>&ldquo;no agent may issue more than two refunds to the same customer within 24 hours.&rdquo;</em> Two prior events found. Verdict: <strong>escalate</strong>.</p></div></div>
-    <div class="wpw-step"><div class="wpw-num">3</div><div><h4>Action held for review</h4><p>The refund enters a human review queue. The provenance layer records the agent, the operation, the triggering events, the policy, and the verdict.</p></div></div>
-    <div class="wpw-step"><div class="wpw-num">4</div><div><h4>Full audit trail exists</h4><p>Six weeks later, the answer is in the log&thinsp;&mdash;&thinsp;the policy, the human who decided, and the timestamp of every step. No retraining needed.</p></div></div>
-  </div>
-</div></section>
-
-<!-- 06 HONEST LIMITS -->
-<section style="background: var(--paper-soft); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);"><div class="shell">
-  <div class="section-head"><div class="num">06 &middot; Honest Limits</div><h2>What this is not.</h2></div>
-  <div class="wp-nots">
-    <div class="wp-not"><h3>Not an alignment technique</h3><p>Covenant does not make models better. It does not reduce hallucination or improve reasoning. It governs what the model can <em>do</em> once it tries.</p></div>
-    <div class="wp-not"><h3>Not a replacement for humans</h3><p>It makes human oversight <em>tractable</em>. The human role shifts from approving routine actions to reviewing edge cases and audit trails.</p></div>
-    <div class="wp-not"><h3>Not a guarantee of safety</h3><p>What it provides is a structural defense that does not depend on agent cooperation, and an evidentiary record that does not depend on agent honesty.</p></div>
-    <div class="wp-not"><h3>Not a complete defense</h3><p>Guarantees hold over <em>observed events</em>. An agent that acts through channels Covenant does not mediate falls outside the enforcement surface.</p></div>
-  </div>
-</div></section>
-
-<!-- 07 WHY NOW -->
-<section><div class="shell">
-  <div class="section-head"><div class="num">07 &middot; Why Now</div><h2>Three trends make this<br>moment specific.</h2></div>
-  <div class="grid-3">
-    <div class="card"><div class="tag">Trend 01</div><h3>Agents cross boundaries</h3><p>Company A&rsquo;s agent acts on company B&rsquo;s systems with company C&rsquo;s data. Without common governance, disputes reduce to taking the agent&rsquo;s word.</p></div>
-    <div class="card"><div class="tag">Trend 02</div><h3>Regulation is closing in</h3><p>The EU AI Act, US state-level laws, and sectoral regimes all converge on: demonstrable controls and audit trails for automated decisions.</p></div>
-    <div class="card"><div class="tag">Trend 03</div><h3>The ecosystem fragments</h3><p>A governance layer at the model is captive to one vendor. A layer at the system is portable across all of them.</p></div>
   </div>
 </div></section>
 
 <!-- CTA -->
-<section style="background: var(--ink); color: var(--paper); padding: 4rem 0;"><div class="shell center">
-  <div class="h-sub mb-2" style="color: var(--gold);">Read the full paper</div>
-  <h2 style="color: var(--paper); font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.1; margin-bottom: 1.5rem;">10 pages. No jargon.<br>The complete argument.</h2>
-  <p style="color: #cfc3a8; max-width: 38rem; margin: 0 auto 2rem;">Covers the problem, architecture, a concrete walkthrough, honest limitations, and the research program ahead.</p>
+<section style="padding: 4rem 0;"><div class="shell center">
+  <h2 style="font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(2rem, 4vw, 3rem); color: var(--ink); margin-bottom: 1.5rem;">Built in the open.</h2>
+  <p class="measure" style="margin: 0 auto 2rem; color: var(--ink-3);">The framework, the research, and the benchmarks are all public. If you operate agents and governance keeps you up at night, this work is for you.</p>
   <div class="flex gap-1" style="justify-content: center; flex-wrap: wrap;">
-    <a class="btn btn-primary" href="Covenant_Framework_Whitepaper.pdf">Download PDF <span class="arrow">&rarr;</span></a>
-    <a class="btn" style="border-color: var(--paper); color: var(--paper);" href="https://github.com/asalsali/covenant-framework">View on GitHub <span class="arrow">&rarr;</span></a>
+    <a class="btn btn-primary" href="research.html">See the research <span class="arrow">&rarr;</span></a>
+    <a class="btn" href="https://github.com/asalsali/covenant-research">View on GitHub <span class="arrow">&rarr;</span></a>
   </div>
 </div></section>
 
 <footer class="foot"><div class="shell-wide">
   <div class="foot-grid">
     <div><a href="https://covenant.foundation" class="nav-brand" style="margin-bottom: 1rem; display:inline-flex;"><img class="mark" src="assets/logo.png" alt="Covenant" style="width: 56px;"><span><span class="word" style="font-family: var(--display); font-style: italic; font-size: 1.2rem; color: var(--ink);">Covenant</span><small style="font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-3); display:block;">Foundation &middot; est. 2026</small></span></a><p class="dim" style="font-size: 0.9rem; max-width: 22rem; margin-top: 1rem;">Organizational patterns borrowed from thousands of years of human institutions, now applied to AI.</p></div>
-    <div><h4>The Work</h4><ul><li><a href="https://covenant.foundation/framework.html">Framework</a></li><li><a href="https://covenant.foundation/benchmarks.html">Benchmarks</a></li><li><a href="https://covenant.foundation/research.html">Research papers</a></li></ul></div>
-    <div><h4>This Site</h4><ul><li><a href="index.html">Whitepaper</a></li><li><a href="Covenant_Framework_Whitepaper.pdf">Download PDF</a></li><li><a href="https://github.com/asalsali/covenant-research">GitHub repo</a></li></ul></div>
-    <div><h4>Contact</h4><ul><li><a href="mailto:alex@covenant.foundation">alex@covenant.foundation</a></li><li><a href="https://github.com/asalsali/covenant-framework">Main GitHub</a></li><li><a href="https://covenant.foundation/network.html#access">Request access</a></li></ul></div>
+    <div><h4>This Site</h4><ul><li><a href="whitepaper.html">Whitepaper</a></li><li><a href="research.html">Research</a></li><li><a href="Covenant_Framework_Whitepaper.pdf">Whitepaper PDF</a></li><li><a href="Governance_Under_Load_Draft.pdf">Research paper PDF</a></li></ul></div>
+    <div><h4>The Foundation</h4><ul><li><a href="https://covenant.foundation">Main site</a></li><li><a href="https://covenant.foundation/framework.html">Framework</a></li><li><a href="https://covenant.foundation/benchmarks.html">Benchmarks</a></li></ul></div>
+    <div><h4>Contact</h4><ul><li><a href="mailto:alex@covenant.foundation">alex@covenant.foundation</a></li><li><a href="https://github.com/asalsali/covenant-research">GitHub</a></li></ul></div>
   </div>
   <div class="foot-bottom"><span class="foot-verse">"Borrowed from history. Engineered for what comes next."</span><span>&copy; 2026 The Covenant Foundation</span></div>
 </div></footer>
+
+<style>
+.landing-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  border-top: 1px solid var(--ink);
+  border-left: 1px solid var(--ink);
+}
+.landing-card {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: 1.6rem;
+  padding: 2.2rem 2rem;
+  border-right: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  color: var(--ink-2);
+  transition: background .25s;
+  text-decoration: none;
+  border-bottom-color: var(--ink);
+}
+.landing-card:hover { background: var(--paper-soft); border-bottom-color: var(--ink); }
+.lc-num {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 2.8rem;
+  color: var(--gold);
+  line-height: 1;
+}
+.lc-tag {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  margin-bottom: 0.6rem;
+}
+.lc-body h3 {
+  font-family: var(--display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: var(--ink);
+  margin-bottom: 0.7rem;
+  line-height: 1.1;
+}
+.lc-body p { font-size: 0.94rem; color: var(--ink-3); max-width: 40rem; }
+.lc-links {
+  margin-top: 1rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.lc-alt { color: var(--ink-4); margin-left: 1rem; }
+@media (max-width: 600px) {
+  .landing-card { grid-template-columns: 3rem 1fr; gap: 1rem; padding: 1.6rem 1.2rem; }
+  .lc-num { font-size: 2rem; }
+  .lc-body h3 { font-size: 1.4rem; }
+}
+</style>
 <script>
 var here=location.pathname.split('/').pop()||'index.html';document.querySelectorAll('.nav-links a').forEach(function(a){if(a.getAttribute('href')===here)a.classList.add('is-active')});
 var toggle=document.querySelector('.nav-toggle'),links=document.querySelector('.nav-links');if(toggle&&links){toggle.addEventListener('click',function(){var open=links.classList.toggle('is-open');toggle.setAttribute('aria-expanded',open);toggle.textContent=open?'Close':'Menu'});}
 </script>
-<script src="glossary-data.js"></script>
-<script src="glossary-tooltips.js"></script>
 </body></html>

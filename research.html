@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research - Covenant Research</title>
+<meta name="description" content="Whitepaper, research paper, and benchmarking kit from the Covenant Framework.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=JetBrains+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-screen-label="Research">
+<nav class="nav"><div class="nav-inner">
+  <a href="https://covenant.foundation" class="nav-brand"><img class="mark" src="assets/logo.png" alt="Covenant" aria-hidden="true"><span><span class="word">Covenant</span><small>Foundation &middot; est. 2026</small></span></a>
+  <div class="nav-links">
+    <a data-num="I" href="index.html">Home</a>
+    <a data-num="II" href="research.html">Research</a>
+    <a data-num="III" href="https://covenant.foundation">Main site</a>
+  </div>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false">Menu</button>
+  <a class="nav-cta" href="https://covenant.foundation/network.html#access">Request access</a>
+</div></nav>
+
+<!-- HERO -->
+<section style="padding: 5rem 0 4rem; border-bottom: 1px solid var(--ink);"><div class="shell">
+  <div class="flex-between" style="font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); border-top: 1px solid var(--ink); padding-top: 0.8rem; margin-bottom: 4rem;">
+    <span>Research</span><span>Papers &middot; Benchmarks &middot; Open data</span>
+  </div>
+  <h1 class="display-1 rise" style="color: var(--ink); margin-bottom: 2rem;">The <em style="color: var(--gold);">Evidence</em></h1>
+  <p class="lede measure-wide rise rise-2">Everything we have published. The whitepaper that describes the framework, the research paper that tests it, and the benchmarking kit so anyone can reproduce or challenge the results.</p>
+</div></section>
+
+<!-- WHITEPAPER -->
+<section id="whitepaper"><div class="shell">
+  <div class="section-head"><div class="num">01 &middot; Whitepaper</div><h2>The Covenant Framework</h2></div>
+  <div class="grid-2" style="gap: 3rem; align-items: start;">
+    <div>
+      <div class="h-sub mb-1">Non-technical whitepaper &middot; 10 pages &middot; May 2026</div>
+      <h3 style="font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(1.6rem, 3vw, 2.2rem); color: var(--ink); margin-bottom: 1rem; line-height: 1.1;">A Governance Layer for Autonomous AI Agents</h3>
+      <p>Describes the problem (agents act, nothing governs them), explains the five-function architecture (identify, authorize, enforce, sanction, record), walks through a concrete example, and is honest about limitations.</p>
+      <p>Written for operators, investors, and policymakers. No jargon, no code.</p>
+      <div class="flex gap-1 mt-2" style="flex-wrap: wrap;">
+        <a class="btn btn-primary" href="whitepaper.html">Read online <span class="arrow">&rarr;</span></a>
+        <a class="btn" href="Covenant_Framework_Whitepaper.pdf">Download PDF</a>
+      </div>
+    </div>
+    <div>
+      <div style="background: var(--paper-soft); border: 1px solid var(--rule); padding: 2rem;">
+        <div style="font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem;">Paper sections</div>
+        <ol style="list-style: none; counter-reset: s; padding: 0;">
+          <li class="rp-item">The Problem</li>
+          <li class="rp-item">Why Existing Approaches Fall Short</li>
+          <li class="rp-item">What Covenant Does</li>
+          <li class="rp-item">The Architecture</li>
+          <li class="rp-item">A Walkthrough</li>
+          <li class="rp-item">What We Have Seen, and What We Are Testing</li>
+          <li class="rp-item">What This Is Not</li>
+          <li class="rp-item">Why Now</li>
+          <li class="rp-item">The Path Forward</li>
+          <li class="rp-item">Conclusion</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- RESEARCH PAPER -->
+<section id="paper" style="background: var(--paper-soft); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);"><div class="shell">
+  <div class="section-head"><div class="num">02 &middot; Research Paper</div><h2>Governance Under Load</h2></div>
+  <div class="grid-2" style="gap: 3rem; align-items: start;">
+    <div>
+      <div class="h-sub mb-1">Academic paper &middot; Draft &middot; May 2026</div>
+      <h3 style="font-family: var(--display); font-style: italic; font-weight: 400; font-size: clamp(1.4rem, 2.5vw, 1.8rem); color: var(--ink); margin-bottom: 1rem; line-height: 1.15;">Why Principal-Agent Systems Require Structural Governance, Not Relational Oversight</h3>
+      <p>The technical paper. Presents Terminal-Bench 2.0 results on 89 coding tasks, isolates the governance contribution from model capability, and proposes a framework for measuring governance overhead.</p>
+      <p><strong>Key result:</strong> 6 governance rules improved the same model from 42% to 67.4% on Terminal-Bench, a 25-point lift. Rules 1, 3, and 4 (read first, iterate don&rsquo;t repeat, verify before done) carried most of the improvement.</p>
+      <div class="flex gap-1 mt-2" style="flex-wrap: wrap;">
+        <a class="btn btn-primary" href="Governance_Under_Load_Draft.pdf">Download PDF <span class="arrow">&rarr;</span></a>
+      </div>
+      <p class="dim mt-2" style="font-size: 0.82rem;">Draft. Targeted for NeurIPS Safe ML / AAMAS / arXiv. Experimental roadmap in the benchmarking kit below.</p>
+    </div>
+    <div>
+      <div style="background: var(--ink); color: var(--paper); padding: 2rem; border: 1px solid var(--ink);">
+        <div style="font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.2rem;">Results at a glance</div>
+        <div class="rp-stat"><span class="rp-label">Governed (6 rules, no retry)</span><span class="rp-val gold">67.4%</span></div>
+        <div class="rp-stat"><span class="rp-label">Vanilla Claude Code (Opus 4.6)</span><span class="rp-val">58.0%</span></div>
+        <div class="rp-stat"><span class="rp-label">Ad-hoc prompted baseline</span><span class="rp-val">42.0%</span></div>
+        <div class="rp-stat" style="border: none;"><span class="rp-label">Rules-only lift (same model)</span><span class="rp-val gold">+25 pts</span></div>
+        <div style="margin-top: 1.2rem; padding-top: 1rem; border-top: 1px solid #3a322a; font-size: 0.82rem; color: #9a8e7c;">89 tasks &middot; Terminal-Bench 2.0 &middot; Single attempt &middot; $11.17 total cost</div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- BENCHMARKING KIT -->
+<section id="benchmarks"><div class="shell">
+  <div class="section-head"><div class="num">03 &middot; Benchmarking Kit</div><h2>Reproduce or challenge<br>the results.</h2></div>
+  <p class="measure-wide mb-3">Everything you need to run the same benchmarks, test different rules, or validate on new benchmark suites. No access to the private framework repo required.</p>
+
+  <div class="bk-agents">
+    <div class="bk-group">
+      <div class="bk-group-label">Claude agents (Anthropic)</div>
+      <div class="bk-agent"><strong>covenant_prophet.py</strong> &mdash; Governed agent with 6 rules (the variable under test)</div>
+      <div class="bk-agent"><strong>governed_agent.py</strong> &mdash; Simplified governed agent (same rules, cleaner adapter)</div>
+      <div class="bk-agent"><strong>adhoc_baseline.py</strong> &mdash; 6 ad-hoc rules from prompt engineering (rule quality control)</div>
+      <div class="bk-agent"><strong>vanilla_claude.py</strong> &mdash; Raw Claude Code, zero governance (model baseline)</div>
+      <div class="bk-agent"><strong>covenant_multiagent.py</strong> &mdash; Multi-agent: analyst + executor + retry</div>
+    </div>
+    <div class="bk-group">
+      <div class="bk-group-label">Codex / GPT agents (OpenAI)</div>
+      <div class="bk-agent"><strong>codex_governed.py</strong> &mdash; Same 6 rules on Codex CLI / GPT (cross-model validation)</div>
+      <div class="bk-agent"><strong>codex_governed.py</strong> (CodexAdaptive) &mdash; Adaptive escalation on Codex</div>
+      <div class="bk-agent"><strong>vanilla_codex.py</strong> &mdash; Raw Codex CLI, zero governance (GPT baseline)</div>
+    </div>
+  </div>
+
+  <div class="grid-2 mt-3" style="gap: 2rem;">
+    <div class="card">
+      <div class="tag">The 6 rules</div>
+      <h3>What carried the 25 points</h3>
+      <p>Genesis (read first), Plan First, Iterate Don&rsquo;t Repeat, Verify Before Done, Time Is Limited, When Stuck (change approach). Testing showed rules 1, 3, and 4 drove most of the lift.</p>
+      <a href="benchmarks/governance-rules.txt" style="font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; display: inline-block; margin-top: 0.8rem;">Read the rules &rarr;</a>
+    </div>
+    <div class="card">
+      <div class="tag">Cost estimates</div>
+      <h3>What it costs to run</h3>
+      <p>10 tasks: $15&ndash;40, 1&ndash;3 hours. Full 89 tasks: $150&ndash;400, 12&ndash;20 hours. All 4 agents on 89 tasks: $600&ndash;1600, 3&ndash;5 days. Token consumption averages 50&ndash;100K per task.</p>
+    </div>
+  </div>
+
+  <div class="mt-3" style="padding: 2rem; background: var(--paper-soft); border: 1px solid var(--rule);">
+    <div style="font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem;">Contributor opportunities</div>
+    <table>
+      <thead><tr><th>Experiment</th><th>What</th><th>Cost</th><th>Impact</th></tr></thead>
+      <tbody>
+        <tr><td><strong>P1</strong></td><td>Run vanilla Opus 4.7 on all 89 tasks (resolves model version confound)</td><td>~$200</td><td>Resolves the paper&rsquo;s biggest credibility threat</td></tr>
+        <tr><td><strong>P3</strong></td><td>Run ad-hoc baseline on all 89 tasks (currently only 10)</td><td>~$200</td><td>Powers up rule-quality comparison to statistical significance</td></tr>
+        <tr><td><strong>P6</strong></td><td>Run governance rules on GPT-5 via Codex CLI</td><td>~$50</td><td>Tests whether governance transfers across model families</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="flex gap-1 mt-3" style="flex-wrap: wrap;">
+    <a class="btn btn-primary" href="https://github.com/asalsali/covenant-research/tree/master/benchmarks">View on GitHub <span class="arrow">&rarr;</span></a>
+    <a class="btn" href="benchmarks/README.md">Full benchmarking guide</a>
+    <a class="btn" href="benchmarks/experimental-roadmap.md">Experimental roadmap</a>
+  </div>
+</div></section>
+
+<footer class="foot"><div class="shell-wide">
+  <div class="foot-grid">
+    <div><a href="https://covenant.foundation" class="nav-brand" style="margin-bottom: 1rem; display:inline-flex;"><img class="mark" src="assets/logo.png" alt="Covenant" style="width: 56px;"><span><span class="word" style="font-family: var(--display); font-style: italic; font-size: 1.2rem; color: var(--ink);">Covenant</span><small style="font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--ink-3); display:block;">Foundation &middot; est. 2026</small></span></a><p class="dim" style="font-size: 0.9rem; max-width: 22rem; margin-top: 1rem;">Organizational patterns borrowed from thousands of years of human institutions, now applied to AI.</p></div>
+    <div><h4>This Site</h4><ul><li><a href="whitepaper.html">Whitepaper</a></li><li><a href="research.html">Research</a></li><li><a href="Covenant_Framework_Whitepaper.pdf">Whitepaper PDF</a></li><li><a href="Governance_Under_Load_Draft.pdf">Research paper PDF</a></li></ul></div>
+    <div><h4>The Foundation</h4><ul><li><a href="https://covenant.foundation">Main site</a></li><li><a href="https://covenant.foundation/framework.html">Framework</a></li><li><a href="https://covenant.foundation/benchmarks.html">Benchmarks</a></li></ul></div>
+    <div><h4>Contact</h4><ul><li><a href="mailto:alex@covenant.foundation">alex@covenant.foundation</a></li><li><a href="https://github.com/asalsali/covenant-research">GitHub</a></li></ul></div>
+  </div>
+  <div class="foot-bottom"><span class="foot-verse">"Borrowed from history. Engineered for what comes next."</span><span>&copy; 2026 The Covenant Foundation</span></div>
+</div></footer>
+
+<style>
+/* Section TOC list */
+.rp-item {
+  counter-increment: s;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 0.92rem;
+  color: var(--ink-2);
+}
+.rp-item::before {
+  content: counter(s) ". ";
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  color: var(--gold);
+  margin-right: 0.5rem;
+}
+.rp-item:last-child { border-bottom: none; }
+
+/* Results stats */
+.rp-stat {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #3a322a;
+}
+.rp-label { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.08em; color: #9a8e7c; }
+.rp-val { font-family: var(--display); font-style: italic; font-size: 1.6rem; color: var(--paper); }
+.rp-val.gold { color: var(--gold); }
+
+/* Benchmarking kit agents */
+.bk-agents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+@media (max-width: 700px) { .bk-agents { grid-template-columns: 1fr; } }
+.bk-group-label {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--ink);
+}
+.bk-agent {
+  font-size: 0.88rem;
+  color: var(--ink-3);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.bk-agent strong { color: var(--ink); font-family: var(--mono); font-size: 0.78rem; }
+</style>
+<script>
+var here=location.pathname.split('/').pop()||'index.html';document.querySelectorAll('.nav-links a').forEach(function(a){if(a.getAttribute('href')===here)a.classList.add('is-active')});
+var toggle=document.querySelector('.nav-toggle'),links=document.querySelector('.nav-links');if(toggle&&links){toggle.addEventListener('click',function(){var open=links.classList.toggle('is-open');toggle.setAttribute('aria-expanded',open);toggle.textContent=open?'Close':'Menu'});}
+</script>
+</body></html>
